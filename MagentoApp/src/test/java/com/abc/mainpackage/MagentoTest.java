@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.abc.magentoobjects.Home;
@@ -15,7 +16,7 @@ public class MagentoTest {
 	@Test
 	public void magentoTest() {
 
-		WebDriver chrome = new ChromeDriver();
+		WebDriver chrome = new FirefoxDriver();
 
 		chrome.manage().window().maximize();
 		chrome.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
