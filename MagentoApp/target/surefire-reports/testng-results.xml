@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.abc.mainpackage.MagentoTest" duration-ms="35283" started-at="2019-07-21T07:16:12Z" finished-at="2019-07-21T07:16:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="35283" started-at="2019-07-21T07:16:12Z" finished-at="2019-07-21T07:16:48Z">
+      <class name="com.abc.mainpackage.MagentoTest">
+        <test-method status="PASS" signature="magentoTest()[pri:0, instance:com.abc.mainpackage.MagentoTest@3796751b]" name="magentoTest" duration-ms="35255" started-at="2019-07-21T12:46:12Z" finished-at="2019-07-21T12:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magentoTest -->
+      </class> <!-- com.abc.mainpackage.MagentoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.abc.mainpackage.MagentoTest -->
+</testng-results>
